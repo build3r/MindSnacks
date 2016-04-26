@@ -5,9 +5,8 @@ using namespace std;
 #define INPT int t; cin>>t; while(t--)
 
 int main()
-{ 
+{
     int n,m,x;
-	//
     FST;
     INPT
     {
