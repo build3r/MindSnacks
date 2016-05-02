@@ -6,7 +6,6 @@ using namespace std;
 
 int main()
 {
-
     FST;
     INPT
     {
@@ -23,16 +22,6 @@ int main()
                 cout<<(n>>1)+1;
             else
                 cout<<(n>>1);
-//            if(st==1)
-//                if(q==1)
-//                    cout<<(n>>1);
-//                else
-//                    cout<<n-(n>>1);
-//            else
-//                if(q==2)
-//                    cout<<(n>>1);
-//                else
-//                    cout<<n-(n>>1);
             cout<<endl;
         }
     }
