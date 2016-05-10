@@ -2,13 +2,13 @@
 using namespace std;
 
 #define FST ios_base::sync_with_stdio(0)
-#define INPT int t; cin>>t; while(t--)
 
 int main()
 {
     int n,m,x;
     FST;
-    INPT
+    int t; cin>>t;
+    while(t--)
     {
         x=0;
         string j,s;
