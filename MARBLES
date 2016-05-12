@@ -1,0 +1,33 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+#define FST ios_base::sync_with_stdio(0)
+#define INPT int t; cin>>t; while(t--)
+
+long long int comb(int n,int r)
+{
+    if(n==r || r==0)
+        return 1;
+    if(r==1 || r==n-1)
+		return n;
+    
+    if(r>(n-r))
+        r=n-r;
+        long long res = 1;
+    for(int i=0;i<r;i++)
+    {
+        res*=(n-i);
+        res/=(i+1);
+    }
+    return res;
+}
+int main()
+{
+    int n,m,x,r;
+    FST;
+    INPT
+    {
+        cin>>n>>r;
+        cout<<comb(n-1,r-1)<<endl;
+    }
+}
