@@ -20,7 +20,6 @@ int main()
     int c = 1;
     int l = 0;
     vector< vector<int>> res ;
-
      x = 0;
    do
     {
@@ -36,7 +35,6 @@ int main()
         temp.push_back(c);
         res.push_back(temp);
         x++;
-        //cout<<c<<endl;
         for(i=c;i<n+1;i++)
           {
               if(v[i]==0)
